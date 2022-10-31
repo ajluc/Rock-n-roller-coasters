@@ -1,0 +1,62 @@
+{
+  "name": "Ace of Spades",
+  "maxHeight": 78,
+  "topSpeed": 40,
+  "heightReq": 48,
+  "duration": 120,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-bluestreak-bannerv2.jpg"
+}
+
+{
+  "name": "Eye of the Tiger",
+  "maxHeight": 170,
+  "topSpeed": 67,
+  "heightReq": 52,
+  "duration": 120,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-gatekeeper-bannerv2.jpg"
+}
+
+{
+  "name": "Stairway to Heaven",
+  "maxHeight": 310,
+  "topSpeed": 93,
+  "heightReq": 48,
+  "duration": 120,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-millennium-force-bannerv2.jpg"
+}
+
+{
+  "name": "Sledgehammer",
+  "maxHeight": 205,
+  "topSpeed": 72,
+  "heightReq": 48,
+  "duration": 165,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-magnum-bannerv2.jpg"
+}
+
+{
+  "name": "Freefallin",
+  "maxHeight": 105,
+  "topSpeed": 70,
+  "heightReq": 52,
+  "duration": 150,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-maverick-bannerv2.jpg"
+}
+
+{
+  "name": "Another One Bites The Dust",
+  "maxHeight": 223,
+  "topSpeed": 75,
+  "heightReq": 52,
+  "duration": 143,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-valravn-bannerv2.jpg"
+}
+
+{
+  "name": "The Final Countdown",
+  "maxHeight": 19,
+  "topSpeed": 6,
+  "heightReq": 36,
+  "duration": 50,
+  "img": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/cp-en-us/banners/cp-wildernessrun-bannerv2.jpg"
+}
