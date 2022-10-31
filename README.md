@@ -4,7 +4,7 @@
 
 ### Authors: Jaelen Venable, David Caldwell, Jeff Carroll, Amaya Lucas
 
-### [Trello]() | [GitHub](https://github.com/ajluc/Rock-n-roller-coasters)
+### [Trello](https://trello.com/b/6L5061J9/rock-n-rollercoasters) | [GitHub](https://github.com/ajluc/Rock-n-roller-coasters)
 
 ---
 
