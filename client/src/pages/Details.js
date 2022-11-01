@@ -38,7 +38,7 @@ const Details = () => {
         <div>
           <h1>Name: {coasterDetails?.name}</h1>
           <p>Max Height: {coasterDetails?.maxHeight}ft</p>
-          <p>Top Speed: {coasterDetails?.details}mph</p>
+          <p>Top Speed: {coasterDetails?.topSpeed}mph</p>
           <p>Height Requirement: {coasterDetails?.heightReq} inches</p>
           <p>Duration: {coasterDetails?.duration} seconds</p>
         </div>
