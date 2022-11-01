@@ -4,7 +4,7 @@ const NavigationBar = () => {
 
     return (
         <header>
-            <nav>
+            <nav className='navBar'>
                 <Link to="/">Home</Link>
                 <Link to="/formpage">New Rollercoaster</Link>
             </nav>
