@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Form = (props) => {
-const initialState = {name:'', maxHeight: null, topSpeed: null, heightReq: null, duration: null, img:''}
+const initialState = {name:'', maxHeight: "", topSpeed: "", heightReq: "", duration: "", img:''}
 
 const [formState, setFormState] = useState(initialState)
 
