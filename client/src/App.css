@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://i.imgur.com/HPt029Z.jpeg');
+  background-size: cover;
+
+}
+
+img {
+  width: 100%;
+  border: 2px solid blue;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 80%;
+}
+.card {
+  border: 2px solid green;
+}
+.info-wrapper {
+  border: 2px solid pink;
+}
