@@ -8,13 +8,14 @@ import Home from './pages/Home'
 function App() {
   return (
     <div className="App">
+
       <NavigationBar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rollercoasters/:id" element={<Details />} />
           <Route path="/formpage" element={<FormPage />} />
-        </Routes>
+          </Routes>
       </main>
     </div>
   )
