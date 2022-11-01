@@ -1,10 +1,9 @@
-// import { useEffect, useState } from 'react'
-// import axios from 'axios'
+import Form from "../components/Form"
 
 const FormPage = () => {
   return (
     <div>
-      <h2>This is FormPage</h2>
+      <Form/>
     </div>
   )
 }
