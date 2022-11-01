@@ -1,31 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Racing+Sans+One&display=swap');
 body{
   margin: 0;
+  background-image: url('https://i.imgur.com/HPt029Z.jpeg');
+  background-size: cover;
 }
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url('https://i.imgur.com/HPt029Z.jpeg');
-  background-size: cover;
-
+  color: white;
+  font-family: 'Racing Sans One'
 }
 
 img {
   width: 100%;
-  border: 2px solid blue;
+  border-radius: 20px;
+}
+.img-wrapper:hover{
+  opacity:1;
+  cursor: grab;
 }
 
 .img-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   width: 80%;
+  opacity: .8;
 }
 .card {
-  border: 2px solid green;
+  margin: 10px;
 }
-.info-wrapper {
-  border: 2px solid pink;
+
+.navBar {
+  background-color: white;
+  margin: 20px;
+  height: 30px;
+  font-size: 20px;
+}
+a {
+  padding: 30px;
+  color: red;
+}
+.details-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.details, .info-wrapper {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10%;
+  padding: 8px;
+  margin: 10px;
+}
+.coaster-image-container {
+  border-radius: 20%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin: 5px;
+  width: 140%;
+  background-color: rgb(80,220,200);
+  border: 2px solid white;
+}
+.grid {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
