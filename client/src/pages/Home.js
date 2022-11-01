@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Card from '../components/Card'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const [coasters, setCoasters] = useState([])
@@ -12,6 +13,13 @@ const Home = () => {
   useEffect(() => {
     getCoasters()
   }, [])
+let navigate = useNavigate()
+
+
+ const viewCoaster = (id) => {
+  navigate (`/rollercoasters/${id}`)
+
+ }
 
   return (
     <div className="coaster-container">
@@ -26,7 +34,7 @@ const Home = () => {
             heightReq={coaster.heightReq}
             duration={coaster.duration}
             img={coaster.img}
-            onClick={() => console.log('clicked')}
+            onClick={viewCoaster}
           />
         ))}
       </section>
