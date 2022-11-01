@@ -15,22 +15,24 @@ body{
 
 img {
   width: 100%;
-  border: 2px solid blue;
+  border-radius: 20px;
+}
+.img-wrapper:hover{
+  opacity:1;
+  cursor: grab;
 }
 
 .img-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   width: 80%;
+  opacity: .8;
 }
 .card {
-  border: 2px solid green;
+  margin: 10px;
 }
-.info-wrapper {
-  border: 2px solid pink;
-}
+
 .navBar {
   background-color: white;
   margin: 20px;
@@ -48,11 +50,12 @@ a {
   align-items: center;
   flex-direction: column;
 }
-.details {
+.details, .info-wrapper {
   background-color: black;
   border: 2px solid white;
   border-radius: 10%;
-  padding: 15px;
+  padding: 8px;
+  margin: 10px;
 }
 .coaster-image-container {
   border-radius: 20%;
@@ -74,4 +77,14 @@ input {
   width: 140%;
   background-color: rgb(80,220,200);
   border: 2px solid white;
+}
+.grid {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
