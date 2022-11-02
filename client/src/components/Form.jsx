@@ -11,7 +11,7 @@ let navigate = useNavigate()
 
 const handleSubmit = async (evt) => {
     evt.preventDefault()
-    await axios.post(`http://localhost:3001/rollercoasters`, formState)
+    await axios.post(`/rollercoasters`, formState)
     setFormState(initialState)
     navigate(`/`)
 }

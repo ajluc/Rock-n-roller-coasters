@@ -6,20 +6,18 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
   const [coasters, setCoasters] = useState([])
   const getCoasters = async () => {
-    const response = await axios.get(`http://localhost:3001/rollercoasters`)
+    const response = await axios.get(`/rollercoasters`)
     setCoasters(response.data)
   }
 
   useEffect(() => {
     getCoasters()
   }, [])
-let navigate = useNavigate()
+  let navigate = useNavigate()
 
-
- const viewCoaster = (id) => {
-  navigate (`/rollercoasters/${id}`)
-
- }
+  const viewCoaster = (id) => {
+    navigate(`/rollercoasters/${id}`)
+  }
 
   return (
     <div className="coaster-container">

@@ -7,9 +7,7 @@ const Details = () => {
   let navigate = useNavigate()
   const [coasterDetails, setCoasterDetails] = useState(null)
   const getCoasterDetails = async () => {
-    const response = await axios.get(
-      `http://localhost:3001/rollercoasters/${id}`
-    )
+    const response = await axios.get(`/rollercoasters/${id}`)
     await setCoasterDetails(response.data.rollercoaster)
   }
 
@@ -19,7 +17,7 @@ const Details = () => {
 
   const deleteCoaster = async () => {
     try {
-      await axios.delete(`http://localhost:3001/rollercoasters/${id}`)
+      await axios.delete(`/rollercoasters/${id}`)
       navigate('/')
     } catch (error) {
       console.log(error)
